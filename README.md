@@ -1,4 +1,4 @@
-index.php — the brain. Reads the CSV, matches the incoming URL, fires the 301 redirect to fetnepal.com.
-config.php — settings file. Just holds the fallback URL (fetnepal.com homepage) for unmatched URLs.
-.htaccess — tells Apache "send ALL requests to index.php". Without this, redirects won't work.
-redirect_map.csv — your URL mapping table. The list of 158 old → new URLs. This is the only file you'll ever need to edit in future.
+- index.php — the brain. Reads the CSV, matches the incoming URL, fires the 301 redirect to fetnepal.com.
+- config.php — settings file. Just holds the fallback URL (fetnepal.com homepage) for unmatched URLs.
+- .htaccess — tells Apache "send ALL requests to index.php". Without this, redirects won't work.
+- redirect_map.csv — your URL mapping table. The list of 158 old → new URLs. This is the only file you'll ever need to edit in future.
